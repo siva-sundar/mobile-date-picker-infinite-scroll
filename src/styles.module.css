@@ -1,0 +1,35 @@
+@import './parent.module.css';
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.fun {
+  color: blue;
+}
+
+.scrollContainer {
+  user-select: none;
+  overflow: scroll;
+  max-height: 120px;
+  border: 1px solid;
+  scroll-snap-type: y mandatory;
+}
+
+.item {
+  scroll-snap-align: center;
+  scroll-snap-stop: normal;
+  padding: 10px 15px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 200px;
+  margin: auto;
+}
+
+/* .selectedDate {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+} */
